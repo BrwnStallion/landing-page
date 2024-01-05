@@ -1,0 +1,42 @@
+/* Fonts */
+@font-face {
+    font-family: roboto;
+    src: url(fonts/roboto/Roboto[wdth\,wght].ttf);
+}
+
+@font-face {
+    font-family: robotocond;
+    src: url(fonts/robotocondensed/RobotoCondensed[wght].ttf);
+}
+
+@font-face {
+    font-family: robotoflex;
+    src: url(fonts/robotoflex/RobotoFlex[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght].ttf)
+}
+
+@font-face {
+    font-family: robotoserif;
+    src: url(fonts/robotoserif/RobotoSerif[GRAD\,opsz\,wdth\,wght].ttf)
+}
+
+/* Font testing */
+
+.roboto {
+    font-family: roboto;
+    font-style: italic;
+}
+
+.robotocond {
+    font-family: robotocont;
+    font-weight: 900;
+}
+
+.robotoflex {
+    font-family: robotoflex;
+    font-style: oblique;
+}
+
+.robotoserif {
+    font-family: robotoserif;
+    font-variant: small-caps;
+}
