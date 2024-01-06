@@ -40,3 +40,45 @@
     font-family: robotoserif;
     font-variant: small-caps;
 }
+
+/* Website styles */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+    /* margin: 0px; */
+    padding: 24px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .right-links {
+    font-size: 18px;
+    font-weight: 400;
+    color: #E5E7EB;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
