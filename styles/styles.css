@@ -185,8 +185,34 @@ img.main-img {
     background-color: rgb(224, 224, 224);
 }
 
+/* Resize 3 images that are larger in info section */
 .info-grid:nth-child(n+1) img {
     padding: 25px;
+}
+
+/* Testimonial Section */
+.testimonial {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 90px;
+}
+
+.testimonial div:first-child {
+    max-width: 75%;
+    align-self: center;
+}
+
+.testimonial div:last-child {
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
 }
 
 /* Signup Section */
