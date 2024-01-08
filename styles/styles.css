@@ -248,3 +248,14 @@ img.main-img {
     border: 1px solid #E5E7EB;
     flex-shrink: 0;
 }
+
+/* Footer Section */
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 24px 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
